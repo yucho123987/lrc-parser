@@ -1,0 +1,33 @@
+{
+  "name": "@yucho123987/lrc-parser",
+  "version": "1.0.0",
+  "description": "An LRC-format lyrics parser written in JavaScript that supports both Node.js and browser environments.",
+  "keywords": [
+    "LRC",
+    "music",
+    "lyrics",
+    "parser"
+  ],
+  "homepage": "https://github.com/yucho123987/lrc-parser#readme",
+  "bugs": {
+    "url": "https://github.com/yucho123987/lrc-parser/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yucho123987/lrc-parser.git"
+  },
+  "license": "Unlicense",
+  "author": "yucho123987",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^11.8.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
